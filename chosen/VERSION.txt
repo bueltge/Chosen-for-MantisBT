@@ -1,2 +1,6 @@
-0.0.1
+1.0.1
+	Changes on selects, to set always text align left [#1](https://github.com/bueltge/Chosen-for-MantisBT/issues/1)
+	Set smaller default width for select to 110px
+
+1.0.0
 	First release

@@ -1,4 +1,4 @@
 jQuery( document ).ready( function( $ ) {
 	$( 'select' ).chosen();
-	$( '.chosen-container' ).css( { minWidth: '150px', width: 'auto' } );
+	$( '.chosen-container' ).css( { minWidth: '110px', width: 'auto' } );
 } );
