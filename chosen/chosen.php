@@ -25,7 +25,7 @@ class ChosenPlugin extends MantisPlugin {
 		
 		$this->name        = plugin_lang_get( 'title' );
 		$this->description = plugin_lang_get( 'description' );
-		$this->version     = '1.0.1';
+		$this->version     = '1.0.2';
 		$this->requires    = array(
 			'MantisCore' => '1.2.0, 1.3.0',
 			// Plugin not needed with 1.3 (jQuery is bundled)
