@@ -27,8 +27,9 @@ class ChosenPlugin extends MantisPlugin {
 		$this->description = plugin_lang_get( 'description' );
 		$this->version     = '1.0.1';
 		$this->requires    = array(
-			'MantisCore' => '1.2.0',
-			'jQuery'     => '1.11.1',
+			'MantisCore' => '1.2.0, 1.3.0',
+			// Plugin not needed with 1.3 (jQuery is bundled)
+			//'jQuery'     => '1.11.1',
 		);
 		$this->author  = 'Frank Bültge';
 		$this->contact = 'frank@bueltge.de';
@@ -47,15 +48,15 @@ class ChosenPlugin extends MantisPlugin {
 	 * Create the resource link to load the chosen library.
 	 */
 	function resources( $p_event ) {
-
+		
 		$markup = '';
 		$plugin_path = config_get_global( 'path' ) . 'plugins/' . plugin_get_current();
-
+		
 		$style        = $plugin_path . '/lib/chosen.min.css';
-
+		
 		$script        = $plugin_path . '/js/chosen_for_mantisbt.js';
 		$chosen_script = $plugin_path . '/lib/chosen.jquery.min.js';
-
+		
 		$markup .= '<link rel="stylesheet" type="text/css" href="' . $style . '" />';
 		$markup .= '<script type="text/javascript" src="' . $chosen_script . '"></script>';
 		$markup .= '<script type="text/javascript" src="' . $script . '"></script>';
