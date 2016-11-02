@@ -1,5 +1,5 @@
 <?php
-# Copyright (C) 2015 Frank Bültge
+# Copyright (C) 2012-2016 Frank Bültge
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,11 +25,9 @@ class ChosenPlugin extends MantisPlugin {
 		
 		$this->name        = plugin_lang_get( 'title' );
 		$this->description = plugin_lang_get( 'description' );
-		$this->version     = '1.0.2';
+		$this->version     = '1.1.0';
 		$this->requires    = array(
 			'MantisCore' => '1.2.0, 1.3.0',
-			// Plugin not needed with 1.3 (jQuery is bundled)
-			//'jQuery'     => '1.11.1',
 		);
 		$this->author  = 'Frank Bültge';
 		$this->contact = 'frank@bueltge.de';

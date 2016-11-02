@@ -21,7 +21,7 @@ A example in MantisBT with active Chosen plugin and Theme [Colorized](https://gi
 See in VERSION.txt
 
 ### License
-Good news, this plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But if you enjoy this plugin, you can thank me and leave a [small donation](http://bueltge.de/wunschliste/ "Wishliste and Donate") for the time I've spent writing and supporting this plugin. And I really don't want to know how many hours of my life this plugin has already eaten ;)
+Good news, this plugin is free for everyone! Since it's released under the MIT. But if you enjoy this plugin, you can thank me and leave a [small donation](http://bueltge.de/wunschliste/ "Wishliste and Donate") for the time I've spent writing and supporting this plugin. And I really don't want to know how many hours of my life this plugin has already eaten ;)
 
 ### Contributors
 see the [contributors graph](https://github.com/bueltge/Chosen-for-MantisBT/graphs/contributors) for the current status
