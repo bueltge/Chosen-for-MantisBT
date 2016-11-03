@@ -1,0 +1,6 @@
+{
+  "name": "Chosen for MantisBT",
+  "tagline": "Chosen for MantisBT add the jQuery plugin Chosen that makes long, unwieldy select boxes much more user-friendly.",
+  "body": "### Chosen?\r\nChosen is a jQuery plugin that makes long, unwieldy select boxes much more user-friendly.\r\n\r\n### Description\r\nChosen is a jQuery plugin that makes long, unwieldy select boxes much more user-friendly. This plugin is a optional enhancement for the MantisBT Theme [Colorized](https://github.com/bueltge/MantisBT-Colorized).\r\n\r\n[Mantis Bug Tracker](http://www.mantisbt.org/) (MantisBT) is a free popular web-based bugtracking system.\r\n\r\n### Screenshot\r\nA example in MantisBT with active Chosen plugin and Theme [Colorized](https://github.com/bueltge/MantisBT-Colorized)\r\n![Screenshot on a mantis install](Chosen-for-MantisBT/screenshot-1.png)\r\n\r\n### License\r\nThis code is licensed under the MIT License.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
