@@ -1,3 +1,7 @@
+1.2.0
+	Update Chosen lib to 1.6.2
+	Fix search for sub-items, there view html entity like '&nbsp;'
+
 1.1.1
 	Change the visibility of a list item in select boxes, now is only a one liner with auto width.
 	

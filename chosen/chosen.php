@@ -10,7 +10,7 @@ class ChosenPlugin extends MantisPlugin {
 		
 		$this->name        = plugin_lang_get( 'title' );
 		$this->description = plugin_lang_get( 'description' );
-		$this->version     = '1.1.1';
+		$this->version     = '1.2.0';
 		$this->requires    = array(
 			'MantisCore' => '1.2.0, 1.3.0',
 		);
