@@ -6,4 +6,5 @@ jQuery( document ).ready( function( $ ) {
 		this.style.setProperty( 'display', 'none', 'important' );
 	});
 	$( '.chosen-container' ).css( { minWidth: '130px', width: 'auto' } );
+	$( '.table-responsive' ).css('overflowX','visible');
 } );
