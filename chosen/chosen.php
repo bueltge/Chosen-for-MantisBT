@@ -12,7 +12,7 @@ class ChosenPlugin extends MantisPlugin {
 		$this->description = plugin_lang_get( 'description' );
 		$this->version     = '1.2.1';
 		$this->requires    = array(
-			'MantisCore' => '2.0.0',
+			'MantisCore' => '>= 1.2.0, < 3.0',
 		);
 		$this->author  = 'Frank Bültge';
 		$this->contact = 'frank@bueltge.de';
