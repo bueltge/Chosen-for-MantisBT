@@ -1,3 +1,7 @@
+1.2.1
+	Changes to use also in MantisBT 2.*
+	Fixed for overflow fields
+
 1.2.0
 	Update Chosen lib to 1.6.2
 	Fix search for sub-items, there view html entity like '&nbsp;'
