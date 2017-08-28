@@ -1,3 +1,6 @@
+1.2.2
+	Fixed issue for Viewing Issue Task select to view it also on lange content.
+
 1.2.1
 	Changes to use also in MantisBT 2.*
 	Fixed for overflow fields
